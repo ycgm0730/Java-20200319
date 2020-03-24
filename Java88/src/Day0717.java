@@ -68,6 +68,9 @@ public class Day0717 {
 					System.exit(0);
 				}
 			}
+			sc.close();
 		}
+		
 	}
+	
 }
