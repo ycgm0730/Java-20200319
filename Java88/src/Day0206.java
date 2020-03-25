@@ -4,7 +4,7 @@ public class Day0206 {
 	public static void main(String[] args) {
 		char ch1 = 'a';	//문자 1개를 입력하는 char형은 작은 따옴표로 감싸야 합니다.
 //		char ch2 = 'ab';	//char형은 2개 이상의 문자를 입력할 수 없습니다.
-		char ch3 = '\n';	//escape문자는 컴퓨터가 1개의 문자로 인식합니다.
+	//	char ch3 = '\n';	//escape문자는 컴퓨터가 1개의 문자로 인식합니다.
 		char ch4 = 'b';		//char형의 문자들은 고유의 넘버를 가집니다.
 		System.out.println(ch1);
 		System.out.println(ch4);

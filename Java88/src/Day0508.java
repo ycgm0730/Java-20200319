@@ -37,6 +37,7 @@ public class Day0508 {
 		
 		
 		}
+		sc.close();
 	}
 
 }

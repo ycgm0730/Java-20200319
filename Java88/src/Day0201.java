@@ -13,7 +13,7 @@ public class Day0201 {
 		number4 = 40;
 		
 		int number5 = 50;	//변수를 선언과 동시에 값을 할당
-		int number6 = 60, number7 = 70;	//선언과 동시에 값을 할당할 때도 동시 선언이 가능합니다.
+		//int number6 = 60, number7 = 70;	//선언과 동시에 값을 할당할 때도 동시 선언이 가능합니다.
 		
 		System.out.println(number1);	//변수를 출력할 때는 쌍따옴표(")로 감싸지 않습니다.
 		System.out.println(number2);

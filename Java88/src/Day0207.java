@@ -18,5 +18,7 @@ public class Day0207 {
 		System.out.println(Math.random());	//0보다 크거나 같고 1보다 작은 실수를 출력
 								//Math 클래스는 기본지원 클래스이므로 임포트할 필요가 없습니다.
 		System.out.println(rd.nextDouble());
+		sc.close();
 	}
+	
 }

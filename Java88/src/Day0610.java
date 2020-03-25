@@ -15,6 +15,7 @@ public class Day0610 {
 		}while (!inputString.equals("q"));		// !로 인해 q가 아니라면 반복을 종료해라라고 됨
 		System.out.println();
 		System.out.println("프로그램 종료");
+		sc.close();
 	}
 
 }

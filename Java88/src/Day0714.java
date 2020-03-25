@@ -26,6 +26,7 @@ public class Day0714 {
 				}
 				System.out.println();
 			}
+			sc.close();
 
 		}
 	}

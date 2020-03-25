@@ -26,5 +26,6 @@ public class Day0310 {
 		
 		boolean isMetro = isMetro1 || isMetro2;
 		System.out.println("메트로폴리스 여부: " + isMetro);
+		sc.close();
 	}
 }

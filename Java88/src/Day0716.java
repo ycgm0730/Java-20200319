@@ -16,6 +16,6 @@ public class Day0716 {
 			System.out.println(num + "x" + i + "=" + (num * i) + "\t");
 		}
 		System.out.println();
-
+		sc.close();
 	}
 }

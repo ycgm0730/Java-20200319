@@ -29,7 +29,7 @@ public class Day0203 {
 		int result6 = num7 + num8;	//short+short의 결과도 int입니다.
 		System.out.println(result6);
 		
-		long result7 = num7 + num8;	//오른쪽의 자료형이 왼쪽의 자료형보다 작을 경우
+		//long result7 = num7 + num8;	//오른쪽의 자료형이 왼쪽의 자료형보다 작을 경우
 									//오른쪽에서 왼쪽으로 대입이 가능합니다.
 									//자동형변환, 묵시적형변환, promotion
 //		int result8 = 10L;	//long형을 int에 대입할 수 없습니다.
