@@ -2,9 +2,21 @@ package Day12;
 
 public class Person {
 
-	public static void main(String[] args) {
-		// TODO 자동 생성된 메소드 스텁
-
+		void sound() {
+			System.out.println("말하다");
+		
 	}
-
+		void run() {
+			System.out.println("달리다");
+		}
+		void eat() {
+			System.out.println("음식을 먹다");
+		}
+		void oneDay() {
+//			Person person=new Person();
+//			person.sound();
+			this.sound();
+			run();
+			eat();
+		}
 }
