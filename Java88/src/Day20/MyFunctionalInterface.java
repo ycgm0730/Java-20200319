@@ -1,7 +1,7 @@
 package Day20;
 
 @FunctionalInterface
-public interface Functional {
+public interface MyFunctionalInterface {
 	
 	void method();	
 

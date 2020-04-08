@@ -3,7 +3,7 @@ package Day20;
 public class FunctionalEx {
 
 	public static void main(String[] args) {
-		Functional f1 = new Functional() {
+		MyFunctionalInterface f1 = new MyFunctionalInterface() {
 
 			@Override
 			public void method() {
@@ -13,12 +13,12 @@ public class FunctionalEx {
 		};
 		f1.method();
 
-		Functional f2 = () -> {
+		MyFunctionalInterface f2 = () -> {
 			System.out.println("f2람다식으로 메소드 호출");
 		};
 		f2.method();
 
-		Functional f3 = () -> System.out.println("f3람다식으로 메소드 호출");
+		MyFunctionalInterface f3 = () -> System.out.println("f3람다식으로 메소드 호출");
 		f3.method();
 
 	}
